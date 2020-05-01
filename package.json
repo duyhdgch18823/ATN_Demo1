@@ -1,0 +1,24 @@
+{
+  "name": "atn_demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "handlebars": "^4.7.4",
+    "mongodb": "^3.5.5",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "package": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "myserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
