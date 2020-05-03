@@ -1,5 +1,5 @@
 {
-  "name": "ATN",
+  "name": "atn_demo1",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -19,6 +19,14 @@
     "start" : "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyhdgch18823/ATN_Demo1.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duyhdgch18823/ATN_Demo1/issues"
+  },
+  "homepage": "https://github.com/duyhdgch18823/ATN_Demo1#readme"
 }
