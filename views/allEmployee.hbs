@@ -50,9 +50,12 @@
                 <td>{{Phone}}</td>
                 <td>{{Email}}</td>
                 <td>
-                    <a href="/employee/edit?id={{_id}}">Update</a>
+                    {{!-- <a href="/employee/edit?id={{_id}}">Update</a>
                     <br>
-                    <a href="/employee/delete?id={{_id}}">Delete</a>
+                    <a href="/employee/delete?id={{_id}}">Delete</a> --}}
+                    <a href="/product/edit?id={{_id}}"><button class="update">Update</button></a>
+                    <br>
+                    <a href="/product/edit?id={{_id}}"><button class="delete">Delete</button></a>
                 </td>
             </tr>
             {{/each}}
